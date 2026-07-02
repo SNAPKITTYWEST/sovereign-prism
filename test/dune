@@ -1,0 +1,4 @@
+(library
+ (name snap_prism_test)
+ (public_name snap-prism.test)
+ (libraries snap_prism alcotest))

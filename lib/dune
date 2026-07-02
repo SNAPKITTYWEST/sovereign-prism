@@ -1,0 +1,9 @@
+(library
+ (name snap_prism)
+ (public_name snap-prism)
+ (libraries sha2 digestif))
+
+(executable
+ (name snap_prism_cli)
+ (public_name snap-prism)
+ (libraries snap_prism cmdliner))
